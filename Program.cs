@@ -124,7 +124,7 @@ partial class Program
 
                     break;
 
-                case 102
+                case 102:
 
                 Action(wow, waitingTime, interactCible, stopInteractCible);
 

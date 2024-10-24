@@ -2,6 +2,7 @@
 using System.Text;
 using System;
 using System.Reflection.Metadata.Ecma335;
+using System.Diagnostics;
 
 namespace AppolyonKnight
 {
@@ -38,7 +39,7 @@ namespace AppolyonKnight
             int turnRight = 1068;
             int stopTurnLeft = 2081;
             int stopTurnRight = 2068;
-            int assoir = 1067;
+            int? assoir = 1067;
             int stopAssoir = 2067;
             int changeCible = 1009;
             int stopChangeCible = 2009;
@@ -62,7 +63,10 @@ namespace AppolyonKnight
             int stopLanceSortEight = 2056;
             int lanceSortNine = 1057;
             int stopLanceSortNine = 2057;
-
+            int? lol = null;
+            float exemple = 0.01f;
+            double biere = 0.00001;
+            decimal levure = 0000;
 
             //Action(wow, waitingTime, turnRight, stopTurnRight);
             //Action(wow, waitingTime, turnLeft, stopTurnLeft);
@@ -82,7 +86,10 @@ namespace AppolyonKnight
             //Action(wow, waitingTime, lanceSortSeven, stopLanceSortSeven);
             //Action(wow, waitingTime, lanceSortEight, stopLanceSortEight);
             //Action(wow, waitingTime, lanceSortNine, stopLanceSortNine);
+            int test = 3;
 
+            if (test < 4) Console.WriteLine("Hello World");
+            else return;
 
 
             while (true)
@@ -198,6 +205,7 @@ namespace AppolyonKnight
                         Action(wow, waitingTime, lanceSortNine, stopLanceSortNine);
 
                         break;
+
                 }
             }
 
